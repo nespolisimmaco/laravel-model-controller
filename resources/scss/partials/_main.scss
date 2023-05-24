@@ -1,0 +1,15 @@
+@use "./variables" as *;
+
+main {
+    padding: 100px 0 20px;
+}
+
+.card {
+    color: white;
+
+    .card-body {
+        background-color: $card_color;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+}
